@@ -1,5 +1,8 @@
 import {html, LitElement} from 'lit';
-import {classMap} from 'lit/directives/class-map';
+
+// Don't know why, but this fixes things
+// import {classMap} from 'lit/directives/class-map';
+
 import {BalloonEditor, ClassicEditor, DcoupledEditor, InlineEditor} from './ckeditor';
 
 export class VaadinCKEditor extends LitElement {
